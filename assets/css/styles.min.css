@@ -1,0 +1,31 @@
+.media {
+    cursor: crosshair;
+  }
+  
+  @media (min-width: 300px) {
+    .media {
+      padding-top: 100px;
+      width: inherit;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .media {
+      padding-top: 500px;
+      width: 900px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .media {
+      padding-top: 300px;
+      width: 700px;
+    }
+  }
+  
+  @media (min-width: 576px) {
+    .media {
+      width: 500px;
+    }
+  }
+  
